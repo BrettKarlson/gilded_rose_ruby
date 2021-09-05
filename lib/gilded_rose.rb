@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# class to keep track of items
 class GildedRose
   def initialize(items)
     @items = items
@@ -32,6 +33,7 @@ class GildedRose
   end
 end
 
+# class to initialize an item
 class Item
   attr_accessor :name, :sell_in, :quality
 
